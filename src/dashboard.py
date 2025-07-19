@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from src.analysis import generate_synthetic_data, plot_price_vs_volume, run_regression, ab_test
+from analysis import generate_synthetic_data, plot_price_vs_volume, run_regression, ab_test
 
 st.set_page_config(page_title="Price Sensitivity Dashboard", layout="wide")
 
