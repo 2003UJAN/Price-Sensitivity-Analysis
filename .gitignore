@@ -1,1 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/*.log
+
+# VS Code and JetBrains
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs and others
+*.log
+*.sqlite3
